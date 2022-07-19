@@ -13,6 +13,15 @@
   cursor: pointer;
 }
 
+.task-title:hover {
+  opacity: 0.8;
+}
+
+.task-title:active {
+  opacity: 0.6;
+}
+
+
 .remove-task-button, 
 .see-task-details {
   background-color: #444;
@@ -21,4 +30,13 @@
   color: aquamarine;
   margin: 0 5px;
   cursor: pointer;
+}
+
+.remove-task-button:hover, 
+.see-task-details:hover {
+  opacity: 0.8;
+}
+.remove-task-button:active, 
+.see-task-details:active {
+  opacity: 0.6;
 }
